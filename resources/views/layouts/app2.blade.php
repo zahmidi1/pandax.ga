@@ -40,8 +40,7 @@
     <title>Cooperative annasim al akhdar</title>
 
     <!-- FAVICONS ICON -->
-    <link rel="shortcut icon" type="image/png"
-        href="{{ url('https://anassimalakhdar.com/assets/images/favicon.png') }}">
+    <link rel="shortcut icon" type="image/png" href="{{ asset('images/logo.png') }}">
     <!-- PAGE TITLE HERE -->
 
 
