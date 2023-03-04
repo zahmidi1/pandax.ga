@@ -23,8 +23,8 @@
 
 
      <!-- FAVICONS ICON -->
-     <link rel="shortcut icon" type="image/png"
-         href="{{ url('https://anassimalakhdar.com/assets/images/favicon.png') }}">
+     <link rel="shortcut icon" type="image/png" href="{{ url('images/logo.png') }}">
+
      <!-- Datatable -->
      <link href=" {{ url('vendor/datatables/css/jquery.dataTables.min.css') }}" rel="stylesheet">
      <!-- Custom Stylesheet -->
@@ -82,7 +82,7 @@
              <a href="index.html" class="brand-logo">
 
 
-                 <img width="60px" height="60px" src="{{ asset('images/logo.png') }}" alt="logo">
+                 <img width="60px" height="60px" src="{{ url('images/logo.png') }}" alt="logo">
 
                  <div class="brand-title fs-3">
                      Annassim al akhdar
@@ -138,7 +138,6 @@
                      <li class="dropdown header-profile">
                          <a class="nav-link" data-bs-toggle="collapse" href="#collapseExample" role="button"
                              aria-expanded="false" aria-controls="collapseExample">
-                             <!-- <img src="{{ asset('images/logo.png') }}" width="20" alt=""> -->
                              <div class="header-info ms-3">
 
                                  <span class="font-w600 "><b>{{ Auth::user()->name }}</b></span>

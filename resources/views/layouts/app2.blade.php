@@ -40,7 +40,7 @@
     <title>Cooperative annasim al akhdar</title>
 
     <!-- FAVICONS ICON -->
-    <link rel="shortcut icon" type="image/png" href="{{ asset('images/logo.png') }}">
+    <link rel="shortcut icon" type="image/png" href="{{ url('images/logo.png') }}">
     <!-- PAGE TITLE HERE -->
 
 
